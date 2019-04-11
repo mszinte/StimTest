@@ -28,7 +28,7 @@ spaceDT = 300;                              % space between stimuli
 const.posT = [scrX/2,scrY/2-spaceDT/2];     % [x,y] coordinates of test item (in pixels)          
 const.posD = [scrX/2-spaceDT/2,scrY/2;...   % [x1,y1; x2,y2; ... xN,yN] coordinates of N distractor item(s)
               scrX/2+spaceDT/2,scrY/2;...
-              scrX/2,scrY/2+spaceDT/2];     
+              scrX/2,scrY/2+spaceDT/2];
 
 % Temporal configurations 
 trial_dur_t = 2.000;                        % trial duration (in seconds)
